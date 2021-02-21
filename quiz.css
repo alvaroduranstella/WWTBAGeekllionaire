@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/***************************************************************************/
+/******************************QUESTION BOX STYLE*********************/
+/**************************************************************************/
+.question-container {
+     display: flex;
+    margin-bottom: 8rem;
+    width: 100%;
+    font-size: 1.8rem;
+    /******************ROUNDED BORDERS*************************/
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 6px solid #c0c0c0;
+    text-align: center;
+    /*****************************GRADIENT COLOR BUTTON BACKGROUND EFFECT*********************************************************************/
+    background: #0f00e6;
+    background: -moz-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #0f00e6), color-stop(12%, #1600e0), color-stop(40%, #000675), color-stop(77%, #341aff), color-stop(100%, #2100fa));
+    background: -webkit-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: -o-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: -ms-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: linear-gradient(135deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f00e6', endColorstr='#2100fa', GradientType=1 );
+    /*************FONT COLOR****************************************************************************/
+    color:	#fff;
+}
+/******************************************************************************************************************************************************/
+/***************BUTTON STYLES***********************************************************************************/
+/*****************************************************************************************************************************************************/
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    /******************ROUNDED BORDERS*************************/
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /******************GRADIENT COLOR FOR BUTTONS*************/
+    background: #f2f6f8;
+    background: -moz-linear-gradient(-45deg, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #f2f6f8), color-stop(50%, #d8e1e7), color-stop(51%, #b5c6d0), color-stop(100%, #e0eff9));
+    background: -webkit-linear-gradient(-45deg, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+    background: -o-linear-gradient(-45deg, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+    background: -ms-linear-gradient(-45deg, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+    background: linear-gradient(135deg, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+    text-align: left;
+    /*****************************GRADIENT COLOR BUTTON BACKGROUND EFFECT*********************************************************************/
+    background: #0f00e6;
+    background: -moz-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #0f00e6), color-stop(12%, #1600e0), color-stop(40%, #000675), color-stop(77%, #341aff), color-stop(100%, #2100fa));
+    background: -webkit-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: -o-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: -ms-linear-gradient(-45deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    background: linear-gradient(135deg, #0f00e6 0%, #1600e0 12%, #000675 40%, #341aff 77%, #2100fa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f00e6', endColorstr='#2100fa', GradientType=1 );
+    /*************FONT COLOR****************************************************************************/
+    color:	#fff;
+}
+
+.choice-container:hover {
+    /******************************************************************************************************************************************************/
+    /********************GRADIENT COLOR BACKGROUND EFFECT WHEN THE CURSOR IS OVER THE CHOICE BUTTONS*********************************************************************/
+    /*****************************************************************************************************************************************************/
+    cursor: pointer;
+    background: #e69837;
+    background: -moz-linear-gradient(-45deg, #e69837 0%, #e69837 6%, #de801b 42%, #e1cd14 67%, #e4a55e 89%, #e4a55e 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #e69837), color-stop(6%, #e69837), color-stop(42%, #de801b), color-stop(67%, #e1cd14), color-stop(89%, #e4a55e), color-stop(100%, #e4a55e));
+    background: -webkit-linear-gradient(-45deg, #e69837 0%, #e69837 6%, #de801b 42%, #e1cd14 67%, #e4a55e 89%, #e4a55e 100%);
+    background: -o-linear-gradient(-45deg, #e69837 0%, #e69837 6%, #de801b 42%, #e1cd14 67%, #e4a55e 89%, #e4a55e 100%);
+    background: -ms-linear-gradient(-45deg, #e69837 0%, #e69837 6%, #de801b 42%, #e1cd14 67%, #e4a55e 89%, #e4a55e 100%);
+    background: linear-gradient(135deg, #e69837 0%, #e69837 6%, #de801b 42%, #e1cd14 67%, #e4a55e 89%, #e4a55e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e69837', endColorstr='#e4a55e', GradientType=1 );
+    /****************************BORDER COLOR***************************************/ 
+    border: 6px solid #fff;
+    /***********************FONT COLOR**********************************************************/
+    color: #000;
+}
+
+
+.choice-prefix {
+padding: 1.5rem 2.5rem;
+background: rgb(250, 176, 3);
+color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28d81b;
+}
+
+.incorrect {
+    background-color: #7c1100; 
+}
+
+/*=================PROGRESS DISPLAY=======================*/
+#progress {
+    display: flex;
+    color: #28d81b;
+    justify-content: space-between;
+}
+
+.progress-prefix {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.progress-text {
+    text-align: center;
+}
+
+body {
+    /******************************************************************************************************************************************************/
+    /************************************GRADIENT COLOR BACKGROUND EFFECT*********************************************************************/
+    /*****************************************************************************************************************************************************/
+    background: #260f5f;
+    background: -moz-linear-gradient(-45deg, #260f5f 0%, #3a30a3 31%, #2c2982 51%, #00002e 71%, #0f0345 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #260f5f), color-stop(31%, #3a30a3), color-stop(51%, #2c2982), color-stop(71%, #00002e), color-stop(100%, #0f0345));
+    background: -webkit-linear-gradient(-45deg, #260f5f 0%, #3a30a3 31%, #2c2982 51%, #00002e 71%, #0f0345 100%);
+    background: -o-linear-gradient(-45deg, #260f5f 0%, #3a30a3 31%, #2c2982 51%, #00002e 71%, #0f0345 100%);
+    background: -ms-linear-gradient(-45deg, #260f5f 0%, #3a30a3 31%, #2c2982 51%, #00002e 71%, #0f0345 100%);
+    background: linear-gradient(135deg, #260f5f 0%, #3a30a3 31%, #2c2982 51%, #00002e 71%, #0f0345 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#260f5f', endColorstr='#0f0345', GradientType=1 );
+    color: #fff;
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+     /* Background image it doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when the content's height
+    is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on the container's size */
+    background-size: cover;
+}
